@@ -49,6 +49,7 @@ body{
     padding: 10px;
     padding-left: 25px;
     margin-bottom: 1rem;
+
 }
 
 .card .card-group .card-1 .icon{
@@ -88,6 +89,7 @@ body{
 
 .input-field::placeholder{
     font-size: 15px;
+  
 }
 
 
@@ -230,6 +232,7 @@ padding-left: 10px;
     padding: 15px;
     padding-left: 25px;
     margin-bottom: 1rem;
+   
    }
    
    .textarea-field::placeholder{
@@ -362,152 +365,134 @@ padding-left: 10px;
     color: #0000ff;
 }
 
-@media  screen and (max-width:768px){
-     
 
-   
 
+
+
+
+@media all and (max-width:768px)
+{
+  
     .card-group{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
     }
 
-    .btn{
-        display: inline-block;
-        width: 100%;
-    }
-
     .card .card-group .card-1 .input-field{
         width: 100%;
     }
 
- .card .card-group .card-1 .icon{
-    position: absolute;
-    top: 18%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- .card .card-group .card-1 .icon-1{
-    position: absolute;
-    top: 31%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
-
- .card .card-group .card-1 .icon-2{
-    position: absolute;
-    top: 44.5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
-
- .card .card-group .card-1 .icon-3{
-    position: absolute;
-    top: 58%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
-
-
-
-    .card  .card-1 .inputfield1{
-        width: 100%;
-    }
-
-    .card .card-1 .icon-4{
+    .card .card-group .card-1 .icon{
         position: absolute;
-        top: 68.5%;
+        top: 19%;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+     }
 
+     
+    .card .card-group .card-1 .icon-1{
+        position: absolute;
+        top: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
 
+     .card .card-group .card-1 .icon-2{
+        position: absolute;
+        top: 47%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
 
+     .card .card-group .card-1 .icon-3{
+        position: absolute;
+        top: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
 
-  
-    .card-set{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        align-items: center; 
-    
-    }
+     .card .card-group .card-1 .icon-4{
+        width: 100%;
+     }
 
-   .card .card-set .card-1 .select-field{
-    width: 100%;
- 
-   }
+     .card .card-1 .icon-4{
+        position: absolute;
+        top: 72%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
 
-   .card .card-set .card-1 .input-field2{
-    width: 100%;
- 
-   }
-
-   .card .card-set .card-1 .icon-5{
-    position: absolute;
-    top: 89.5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   }
-
-   .card .card-set .card-1 .select-field1{
-    width: 100%;
- 
-   }
-
-   .card .card-set .card-1 .input-field3{
-    width: 100%;
-   }
-
-   .card .card-set .card-1 .textarea-field{
-    width: 100%;
-
-
-   }
-
-   .card .card-set .card-1 .icon-6{
-    position: absolute;
-    top: 122%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   } 
-
-   .card .card-set .card-1 .textarea-field1{
-    width: 100%;
-   
-   }
-
-   .card .card-set .card-1 .icon-7{
-    position: absolute;
-    top: 141%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-   }
-
-
-    .card-row{
+     .card-set{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
-    }
+     }
 
-    .card .card-row .card-1 .input-field4{
+     .card .card-set .card-1 .input-field2{
         width: 100%;
- 
+     } 
+     .card .card-set .card-1 .select-field{
+        width: 100%;
+     }
+
+     .card .card-set .card-1 .input-field3{
+        width: 100%;
+     }
+
+     .card .card-set .card-1 .select-field1{
+        width: 100%;
+     }
+     .card .card-set .card-1 .icon-5{
+        position: absolute;
+        top: 93%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
        }
 
+       .card .card-set .card-1 .textarea-field{
+        width: 100%;
+       }
+
+       .card .card-set .card-1 .textarea-field1{
+        width: 100%;
+       }
+
+       .card .card-set .card-1 .icon-6{
+        position: absolute;
+        top: 127%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+
+      
+       .card .card-set .card-1 .icon-7{
+        position: absolute;
+        top: 147%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+
+       .card-row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+       }
+
+       .card .card-row .card-1 .input-field4{
+        width: 100%;
+       }
        .card .card-row .card-1 .icon-8{
         position: absolute;
-        top: 156%;
+        top: 163%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -515,93 +500,165 @@ padding-left: 10px;
 
        .card .card-row .card-1 .input-field5{
         width: 100%;
-       
-       }  
-
+       }
        .card .card-row .card-1 .icon-9{
         position: absolute;
-        top: 166%;
+        top: 173%;
         display: flex;
         align-items: center;
         justify-content: center;
        }
 
-
-    
 }
 
-@media only screen and (min-width:360px) and (max-width:480px){
+
+@media all  and (min-width:360px) and (max-width:480px){
+    .card-group{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+
+    .card .card-group .card-1 .input-field{
+        width: 100%;
+    }
+
     .card .card-group .card-1 .icon{
         position: absolute;
-        top: 21%;
+        top: 19%;
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: 2;
+       
      }
-     .card .card-group .card-1 .icon-1{
+
+     
+    .card .card-group .card-1 .icon-1{
         position: absolute;
-        top: 36%;
+        top: 33%;
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: 2;
      }
-    
+
      .card .card-group .card-1 .icon-2{
         position: absolute;
-        top: 52%;
+        top: 47%;
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: 2;
      }
-    
+
      .card .card-group .card-1 .icon-3{
         position: absolute;
-        top: 67%;
+        top: 61%;
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: 2;
      }
+
+     .card .card-group .card-1 .icon-4{
+        width: 100%;
+     }
+
      .card .card-1 .icon-4{
         position: absolute;
-        top: 79.5%;
+        top: 72%;
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: 2;
      }
 
-     .card .card-set .card-1 .icon-5{
+     .card-set{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+     }
 
+     .card .card-set .card-1 .input-field2{
+        width: 100%;
+     } 
+     .card .card-set .card-1 .select-field{
+        width: 100%;
+     }
+
+     .card .card-set .card-1 .input-field3{
+        width: 100%;
+     }
+
+     .card .card-set .card-1 .select-field1{
+        width: 100%;
+     }
+     .card .card-set .card-1 .icon-5{
         position: absolute;
-        top: 103%;
+        top: 93%;
         display: flex;
         align-items: center;
-        justify-content: center
+        justify-content: center;
+        z-index: 2;
+       }
 
+       .card .card-set .card-1 .textarea-field{
+        width: 100%;
+       }
 
-     }
+       .card .card-set .card-1 .textarea-field1{
+        width: 100%;
+       }
 
-    
-   .card .card-set .card-1 .icon-6{
-    position: absolute;
-    top: 127%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   }  
+       .card .card-set .card-1 .icon-6{
+        position: absolute;
+        top: 127%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+       }
 
-   .card .card-row .card-1 .icon-8{
-    position: absolute;
-    top: 163%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   }
+      
+       .card .card-set .card-1 .icon-7{
+        position: absolute;
+        top: 146%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+       }
 
-   .card .card-row .card-1 .icon-9{
-    position: absolute;
-    top: 192%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   }
+       .card-row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+       }
+
+       .card .card-row .card-1 .input-field4{
+        width: 100%;
+       }
+       .card .card-row .card-1 .icon-8{
+        position: absolute;
+        top: 162%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+       }
+
+       .card .card-row .card-1 .input-field5{
+        width: 100%;
+       }
+       .card .card-row .card-1 .icon-9{
+        position: absolute;
+        top: 173%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
 }
+
+
+
